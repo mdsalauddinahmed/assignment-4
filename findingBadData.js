@@ -10,7 +10,7 @@ function findingBadData(arr){
         for(let i =0;i<arr.length;i++){
             const index=i;
             const element =arr[index];
-            // if input any string or number return will be 0;
+            
             // must be input an array.then will be return correct result
             if(element<0){
                 err.push(element)
